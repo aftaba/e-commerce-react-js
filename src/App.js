@@ -51,8 +51,7 @@ class App extends Component {
         
         };
     }
-
-    
+    // this is add item to card section
     appAddItemToCart( id ) {
         var cartItem = this.state.cartItems;
         var found = false;
